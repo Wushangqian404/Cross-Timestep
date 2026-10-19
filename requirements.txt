@@ -1,0 +1,13 @@
+# Recommended runtime: Python 3.10+ on Linux/Ubuntu with an NVIDIA GPU.
+# Install a matching CUDA-enabled PyTorch/torchvision pair for your driver
+# from https://pytorch.org/get-started/locally/ before installing this file.
+
+torch>=2.0
+torchvision>=0.15
+numpy
+tqdm
+monai
+nibabel
+wandb
+beartype
+einops
